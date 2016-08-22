@@ -1,0 +1,11 @@
+function preGet()
+  files=dir('allCards\*.bmp');
+    len=length(files);
+    fs={};
+    for i=1:len
+        f1=['allCards\' files(i).name];
+        fs{i}.name=getFeture(f1);
+        fs{i}.feature=getFeture(f1);
+    end
+    save('fs','fs');
+end

@@ -1,0 +1,62 @@
+<!-- saved from url=(0014)about:internet -->
+<pre class="code">
+<span class="srcline"><span class="lineno"><a href="1,1" id="srcline1"> 1</a></span><span class="line"><span class="comment"><span class="message fatal" id="M1F1C">%</span>LOAD Load data from MAT-file into workspace.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,2" id="srcline2"> 2</a></span><span class="line"><span class="comment">%   S = LOAD(FILENAME) loads the variables from a MAT-file into a structure</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,3" id="srcline3"> 3</a></span><span class="line"><span class="comment">%   array, or data from an ASCII file into a double-precision array.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,4" id="srcline4"> 4</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,5" id="srcline5"> 5</a></span><span class="line"><span class="comment">%   S = LOAD(FILENAME, VARIABLES) loads only the specified variables from a</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,6" id="srcline6"> 6</a></span><span class="line"><span class="comment">%   MAT-file.  VARIABLES use one of the following forms:</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,7" id="srcline7"> 7</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,8" id="srcline8"> 8</a></span><span class="line"><span class="comment">%       VAR1, VAR2, <span class="keyword">...</span><span class="comment">          Load the listed variables.  Use the '*'</span></span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,9" id="srcline9"> 9</a></span><span class="line"><span class="comment">%                                wildcard to match patterns.  For</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,10" id="srcline10">10</a></span><span class="line"><span class="comment">%                                example, load('A*') loads all variables</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,11" id="srcline11">11</a></span><span class="line"><span class="comment">%                                that start with A.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,12" id="srcline12">12</a></span><span class="line"><span class="comment">%       '-regexp', EXPRESSIONS   Load only the variables that match the</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,13" id="srcline13">13</a></span><span class="line"><span class="comment">%                                specified regular expressions.  For more</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,14" id="srcline14">14</a></span><span class="line"><span class="comment">%                                information on regular expressions, type</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,15" id="srcline15">15</a></span><span class="line"><span class="comment">%                                "doc regexp" at the command prompt.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,16" id="srcline16">16</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,17" id="srcline17">17</a></span><span class="line"><span class="comment">%   S = LOAD(FILENAME, '-mat', VARIABLES) forces LOAD to treat the file as</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,18" id="srcline18">18</a></span><span class="line"><span class="comment">%   a MAT-file, regardless of the extension.  Specifying VARIABLES is</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,19" id="srcline19">19</a></span><span class="line"><span class="comment">%   optional.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,20" id="srcline20">20</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,21" id="srcline21">21</a></span><span class="line"><span class="comment">%   S = LOAD(FILENAME, '-ascii') forces LOAD to treat the file as an ASCII</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,22" id="srcline22">22</a></span><span class="line"><span class="comment">%   file, regardless of the extension.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,23" id="srcline23">23</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,24" id="srcline24">24</a></span><span class="line"><span class="comment">%   LOAD(<span class="keyword">...</span><span class="comment">) loads without combining MAT-file variables into a structure</span></span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,25" id="srcline25">25</a></span><span class="line"><span class="comment">%   array.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,26" id="srcline26">26</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,27" id="srcline27">27</a></span><span class="line"><span class="comment">%   LOAD <span class="keyword">...</span><span class="comment"> is the command form of the syntax, for convenient loading from</span></span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,28" id="srcline28">28</a></span><span class="line"><span class="comment">%   the command line. With command syntax, you do not need to enclose input</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,29" id="srcline29">29</a></span><span class="line"><span class="comment">%   strings in single quotation marks. Separate inputs with spaces instead </span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,30" id="srcline30">30</a></span><span class="line"><span class="comment">%   of commas. Do not use command syntax if FILENAME is a variable.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,31" id="srcline31">31</a></span><span class="line"><span class="comment">%   </span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,32" id="srcline32">32</a></span><span class="line"><span class="comment">%   Notes:</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,33" id="srcline33">33</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,34" id="srcline34">34</a></span><span class="line"><span class="comment">%   If you do not specify FILENAME, the LOAD function searches for a file</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,35" id="srcline35">35</a></span><span class="line"><span class="comment">%   named matlab.mat.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,36" id="srcline36">36</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,37" id="srcline37">37</a></span><span class="line"><span class="comment">%   ASCII files must contain a rectangular table of numbers, with an equal</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,38" id="srcline38">38</a></span><span class="line"><span class="comment">%   number of elements in each row.  The file delimiter (character between</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,39" id="srcline39">39</a></span><span class="line"><span class="comment">%   each element in a row) can be a blank, comma, semicolon, or tab.  The</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,40" id="srcline40">40</a></span><span class="line"><span class="comment">%   file can contain MATLAB comments.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,41" id="srcline41">41</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,42" id="srcline42">42</a></span><span class="line"><span class="comment">%   Examples:</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,43" id="srcline43">43</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,44" id="srcline44">44</a></span><span class="line"><span class="comment">%       gongStruct = load('gong.mat')      % All variables</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,45" id="srcline45">45</a></span><span class="line"><span class="comment">%       load('handel.mat', 'y')            % Only variable y</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,46" id="srcline46">46</a></span><span class="line"><span class="comment">%       load('accidents.mat', 'hwy*')      % Variables starting with "hwy"</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,47" id="srcline47">47</a></span><span class="line"><span class="comment">%       load('topo.mat', '-regexp', '\d')  % Variables containing digits</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,48" id="srcline48">48</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,49" id="srcline49">49</a></span><span class="line"><span class="comment">%       % Using command form</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,50" id="srcline50">50</a></span><span class="line"><span class="comment">%       load gong.mat</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,51" id="srcline51">51</a></span><span class="line"><span class="comment">%       load topo.mat -regexp \d</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,52" id="srcline52">52</a></span><span class="line"><span class="comment">%       load 'hypothetical file.mat'       % Filename with spaces</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,53" id="srcline53">53</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,54" id="srcline54">54</a></span><span class="line"><span class="comment">%   See also SAVE, MATFILE, WHOS, CLEAR, REGEXP, IMPORTDATA, UIIMPORT.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,55" id="srcline55">55</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="1,56" id="srcline56">56</a></span><span class="line"><span class="comment">% Copyright 1984-2011 The MathWorks, Inc.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,57" id="srcline57">57</a></span><span class="line"><span class="comment">% $Revision: 5.27.4.8 $  $Date: 2011/06/15 08:03:38 $ </span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,58" id="srcline58">58</a></span><span class="line"><span class="comment">% Built-in function. </span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,59" id="srcline59">59</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="1,60" id="srcline60">60</a></span><span class="line"></pre>

@@ -1,0 +1,41 @@
+﻿Build started 2014/5/10 0:01:12.
+     1>Project "J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\TestAutoit\TestAutoit.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\TestAutoit.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt TestAutoit.cpp
+         TestAutoit.cpp
+     1>TestAutoit.cpp(357): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(379): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(417): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(484): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>TestAutoit.cpp(964): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1048): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1080): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1150): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1165): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1170): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1206): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1224): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1238): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1424): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1431): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1532): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1561): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1572): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1593): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1595): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>TestAutoit.cpp(1598): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1600): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>TestAutoit.cpp(1623): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1734): warning C4018: '<' : signed/unsigned mismatch
+     1>TestAutoit.cpp(1762): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Release\TestAutoit.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Release\TestAutoit.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Release\TestAutoit.lib" /MACHINE:X86 /SAFESEH Release\nouse.obj
+         Release\stdafx.obj
+         Release\TestAutoit.obj
+     1>TestAutoit.obj : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+     1>J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Release\TestAutoit.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\TestAutoit\TestAutoit.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:21.41

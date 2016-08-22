@@ -1,0 +1,23 @@
+﻿Build started 2014/4/22 21:59:33.
+     1>Project "j:\Users\Eric\documents\visual studio 2012\Projects\PHashDll\PHashDll.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PHASHDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\PHashDll.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PHASHDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PHASHDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\PHashDll.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ImagePHash.cpp PHashDll.cpp
+         PHashDll.cpp
+         ImagePHash.cpp
+         Generating Code...
+       Link:
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"j:\users\eric\documents\visual studio 2012\Projects\PHashDll\Debug\PHashDll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"j:\users\eric\documents\visual studio 2012\Projects\PHashDll\Debug\PHashDll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"j:\users\eric\documents\visual studio 2012\Projects\PHashDll\Debug\PHashDll.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\ImagePHash.obj
+         Debug\PHashDll.obj
+         Debug\stdafx.obj
+            Creating library j:\users\eric\documents\visual studio 2012\Projects\PHashDll\Debug\PHashDll.lib and object j:\users\eric\documents\visual studio 2012\Projects\PHashDll\Debug\PHashDll.exp
+         PHashDll.vcxproj -> j:\users\eric\documents\visual studio 2012\Projects\PHashDll\Debug\PHashDll.dll
+     1>Done Building Project "j:\Users\Eric\documents\visual studio 2012\Projects\PHashDll\PHashDll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:33.67

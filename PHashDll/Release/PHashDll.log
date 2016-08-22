@@ -1,0 +1,25 @@
+﻿Build started 2014/4/30 2:50:45.
+     1>Project "J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\PHashDll\PHashDll.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PHASHDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\PHashDll.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PHASHDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PHASHDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\PHashDll.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ImagePHash.cpp PHashDll.cpp
+         ImagePHash.cpp
+     1>ImagePHash.cpp(49): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         PHashDll.cpp
+       Link:
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\PHashDll\Release\PHashDll.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\PHashDll\Release\PHashDll.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\PHashDll\Release\PHashDll.lib" /MACHINE:X86 /SAFESEH /DLL Release\dllmain.obj
+         Release\ImagePHash.obj
+         Release\PHashDll.obj
+         Release\stdafx.obj
+            Creating library J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\PHashDll\Release\PHashDll.lib and object J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\PHashDll\Release\PHashDll.exp
+         Generating code
+         Finished generating code
+         PHashDll.vcxproj -> J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\PHashDll\Release\PHashDll.dll
+     1>Done Building Project "J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\PHashDll\PHashDll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:54.10

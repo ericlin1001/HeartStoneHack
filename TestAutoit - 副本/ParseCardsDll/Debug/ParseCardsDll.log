@@ -1,0 +1,37 @@
+﻿Build started 2014/4/30 1:38:25.
+     1>Project "J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\ParseCardsDll\ParseCardsDll.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PARSECARDSDLL_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ParseCardsDll.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PARSECARDSDLL_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ParseCardsDll.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\TestAutoit\TestAutoit.cpp ParseCardsDll.cpp
+         ParseCardsDll.cpp
+         TestAutoit.cpp
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(346): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(368): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(430): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(909): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(993): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1025): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1068): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1083): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1088): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1104): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1118): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1160): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1303): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1331): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PARSECARDSDLL_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Debug\ParseCardsDll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Debug\ParseCardsDll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Debug\ParseCardsDll.lib" /MACHINE:X86 /DLL Debug\TestAutoit.obj
+         Debug\dllmain.obj
+         Debug\ParseCardsDll.obj
+         Debug\stdafx.obj
+            Creating library J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Debug\ParseCardsDll.lib and object J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Debug\ParseCardsDll.exp
+         ParseCardsDll.vcxproj -> J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Debug\ParseCardsDll.dll
+     1>Done Building Project "J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\ParseCardsDll\ParseCardsDll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.50

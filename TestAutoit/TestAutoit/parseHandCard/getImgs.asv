@@ -1,0 +1,14 @@
+function y=getImgs()
+  files=dir('allCards\*.bmp');
+    len=length(files);
+    len-=10;
+    y=zeros(len,345,276,3);
+    r=[54,43,138,92];
+    for i=1:len
+        f1=['allCards\' files(i).name];
+        a=getCrop(clipMid(f1),r);
+        size(a)
+        =a;
+    end
+        
+end

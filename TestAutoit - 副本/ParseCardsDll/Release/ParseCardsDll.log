@@ -1,0 +1,36 @@
+﻿Build started 2014/5/1 21:32:21.
+     1>Project "J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\ParseCardsDll\ParseCardsDll.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PARSECARDSDLL_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\ParseCardsDll.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\TestAutoit\TestAutoit.cpp
+         TestAutoit.cpp
+     1>..\TestAutoit\TestAutoit.cpp(346): warning C4018: '<' : signed/unsigned mismatch
+     1>..\TestAutoit\TestAutoit.cpp(368): warning C4018: '<' : signed/unsigned mismatch
+     1>..\TestAutoit\TestAutoit.cpp(406): warning C4018: '<' : signed/unsigned mismatch
+     1>..\TestAutoit\TestAutoit.cpp(473): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>..\TestAutoit\TestAutoit.cpp(952): warning C4018: '<' : signed/unsigned mismatch
+     1>..\TestAutoit\TestAutoit.cpp(1036): warning C4018: '<' : signed/unsigned mismatch
+     1>..\TestAutoit\TestAutoit.cpp(1068): warning C4018: '<' : signed/unsigned mismatch
+     1>..\TestAutoit\TestAutoit.cpp(1138): warning C4018: '<' : signed/unsigned mismatch
+     1>..\TestAutoit\TestAutoit.cpp(1153): warning C4018: '<' : signed/unsigned mismatch
+     1>..\TestAutoit\TestAutoit.cpp(1158): warning C4018: '<' : signed/unsigned mismatch
+     1>..\TestAutoit\TestAutoit.cpp(1174): warning C4018: '<' : signed/unsigned mismatch
+     1>..\TestAutoit\TestAutoit.cpp(1188): warning C4018: '<' : signed/unsigned mismatch
+     1>..\TestAutoit\TestAutoit.cpp(1230): warning C4018: '<' : signed/unsigned mismatch
+     1>..\TestAutoit\TestAutoit.cpp(1408): warning C4018: '<' : signed/unsigned mismatch
+     1>..\TestAutoit\TestAutoit.cpp(1436): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Release\ParseCardsDll.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Release\ParseCardsDll.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Release\ParseCardsDll.lib" /MACHINE:X86 /SAFESEH /DLL Release\TestAutoit.obj
+         Release\dllmain.obj
+         Release\ParseCardsDll.obj
+         Release\stdafx.obj
+     1>LINK : warning C4742: 'class PlayerInfo other' has different alignment in 'J:\Users\Eric\Documents\myDocument\������\HeartStoneHack\TestAutoit\ParseCardsDll\ParseCardsDll.cpp' and 'J:\Users\Eric\Documents\myDocument\������\HeartStoneHack\TestAutoit\TestAutoit\TestAutoit.cpp': 1 and 4
+     1>LINK : warning C4742: 'class PlayerInfo my' has different alignment in 'J:\Users\Eric\Documents\myDocument\������\HeartStoneHack\TestAutoit\ParseCardsDll\ParseCardsDll.cpp' and 'J:\Users\Eric\Documents\myDocument\������\HeartStoneHack\TestAutoit\TestAutoit\TestAutoit.cpp': 1 and 4
+            Creating library J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Release\ParseCardsDll.lib and object J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Release\ParseCardsDll.exp
+         Generating code
+         Finished generating code
+         ParseCardsDll.vcxproj -> J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Release\ParseCardsDll.dll
+     1>Done Building Project "J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\ParseCardsDll\ParseCardsDll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.45

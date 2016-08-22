@@ -1,0 +1,9 @@
+SCHTASKS /Create /SC ONCE  /TN openNotepad /TR j:\abc.bat /ST 05:09
+
+
+SCHTASKS /Create /SC ONCE  /TN playHeartStone /TR "J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\heartStoneAutoPlaySrc\heartStonePlay.exe" /ST 13:25
+
+SCHTASKS /Create /SC ONCE  /TN playHeartStone /TR "J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\heartStoneAutoPlaySrc\testForIdle.exe" /ST 4:25
+
+SCHTASKS /Create /SC ONCE  /TN openNotepad /TR "j:\windows\system32\notepad.exe" /ST 05:15
+

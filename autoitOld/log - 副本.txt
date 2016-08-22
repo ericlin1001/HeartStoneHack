@@ -1,0 +1,403 @@
+AutoIt: 3.3.10.2, AdminMode, OS: WIN_7/SP1/X86, OSLang: 0804, CPUArch: X64, Script: J:\Users\Eric\Desktop\autoit\heartStonePlay1.au3
+
+***********Debug Info*****************
+>mys[hp:24,armour:-1,curCrystal:9,maxCrystal:9,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:6,armour:-1,curCrystal:3,maxCrystal:9,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+***********Debug Info*****************
+>change to state:praticeMode
+>praticeMode
+>select my hero
+>selectComputerHero 
+>change to state:mainMenu
+>enter battleMode
+>enter battleMode
+>change to state:battleMode
+>select my hero
+>select relax mode
+>change to state:searchForOppoent
+>searchForOppoent
+>searchForOppoent
+>searchForOppoent
+>searchForOppoent
+>change to state:selectCard
+>selectCard
+>change to state:playingCard
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>mys[hp:30,armour:-1,curCrystal:1,maxCrystal:1,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:1/hp:2/x:643/y:281/isMock:1/isReady:0]
+>You have cards:11
+>mys[hp:30,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:1/hp:1/x:648/y:401/isMock:0/isReady:1]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:1/hp:2/x:643/y:281/isMock:1/isReady:0]
+>mys[hp:30,armour:-1,curCrystal:1,maxCrystal:1,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:1/hp:0/x:651/y:401/isMock:0/isReady:0]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:1/hp:1/x:642/y:281/isMock:1/isReady:0]
+>mys[hp:30,armour:-1,curCrystal:1,maxCrystal:1,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:1/hp:0/x:646/y:401/isMock:0/isReady:0]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:1/hp:1/x:642/y:281/isMock:1/isReady:0]
+>mys[hp:30,armour:-1,curCrystal:1,maxCrystal:1,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:-1/hp:-1/x:661/y:401/isMock:0/isReady:0]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:1/hp:1/x:642/y:281/isMock:1/isReady:0]
+>mys[hp:30,armour:-1,curCrystal:1,maxCrystal:1,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:-1/hp:-1/x:635/y:401/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:745/y:401/isMock:0/isReady:0]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:1/hp:1/x:642/y:281/isMock:1/isReady:0]
+>mys[hp:30,armour:-1,curCrystal:1,maxCrystal:1,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:1/hp:-1/x:642/y:281/isMock:1/isReady:0]
+>calculating strategy....
+>$myHp:30
+>$otherHp:30
+>$myMostHit:0
+>$otherMostHit:0
+>$myAllHit:0
+>$otherAllHit:1
+>My Strategy:SG_ATTACK_HERO
+>mys[hp:30,armour:-1,curCrystal:1,maxCrystal:1,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:1/hp:1/x:642/y:281/isMock:1/isReady:0]
+>mys[hp:30,armour:-1,curCrystal:1,maxCrystal:1,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:1/hp:1/x:642/y:281/isMock:1/isReady:0]
+>mys[hp:30,armour:-1,curCrystal:1,maxCrystal:1,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:1/hp:1/x:642/y:281/isMock:1/isReady:0]
+>mys[hp:30,armour:-1,curCrystal:1,maxCrystal:1,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:1/hp:1/x:642/y:281/isMock:1/isReady:0]
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>mys[hp:29,armour:-1,curCrystal:2,maxCrystal:2,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:2/hp:1/x:558/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:646/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:731/y:281/isMock:1/isReady:0]
+>You have cards:11
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:2/hp:1/x:558/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:646/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:731/y:281/isMock:1/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:2/hp:1/x:558/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:646/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:731/y:281/isMock:1/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:2/hp:1/x:558/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:646/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:731/y:281/isMock:1/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:2/hp:1/x:558/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:646/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:731/y:281/isMock:1/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:2/hp:1/x:558/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:646/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:731/y:281/isMock:1/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:2/hp:1/x:558/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:646/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:731/y:281/isMock:1/isReady:0]
+>calculating strategy....
+>$myHp:29
+>$otherHp:30
+>$myMostHit:0
+>$otherMostHit:0
+>$myAllHit:0
+>$otherAllHit:4
+>My Strategy:ATTACK_CARD
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:2/hp:1/x:558/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:646/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:731/y:281/isMock:1/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:2/hp:1/x:558/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:646/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:731/y:281/isMock:1/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:2/hp:1/x:558/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:646/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:731/y:281/isMock:1/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:30,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:2/hp:1/x:558/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:646/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:731/y:281/isMock:1/isReady:0]
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>mys[hp:29,armour:-1,curCrystal:3,maxCrystal:3,numHandCards:0,handCards:,numDeckCards:0,deckCards:]
+>$otherS:[hp:28,armour:-1,curCrystal:7,maxCrystal:0,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:0/hp:1/x:646/y:281/isMock:0/isReady:0]
+>You have cards:9
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:2/hp:1/x:652/y:401/isMock:0/isReady:0]
+>$otherS:[hp:28,armour:-1,curCrystal:7,maxCrystal:0,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:0/hp:1/x:646/y:281/isMock:0/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:1/hp:1/x:660/y:401/isMock:0/isReady:0]
+>$otherS:[hp:28,armour:-1,curCrystal:7,maxCrystal:0,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:-1/hp:1/x:646/y:281/isMock:0/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:2/hp:1/x:646/y:401/isMock:0/isReady:0]
+>$otherS:[hp:28,armour:-1,curCrystal:7,maxCrystal:0,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:0/hp:1/x:646/y:281/isMock:0/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:2/hp:1/x:646/y:401/isMock:0/isReady:0]
+>$otherS:[hp:28,armour:-1,curCrystal:7,maxCrystal:0,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:0/hp:1/x:646/y:281/isMock:0/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:2/hp:1/x:646/y:401/isMock:0/isReady:0]
+>$otherS:[hp:28,armour:-1,curCrystal:7,maxCrystal:0,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:0/hp:1/x:646/y:281/isMock:0/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:2/hp:1/x:646/y:401/isMock:0/isReady:0]
+>$otherS:[hp:28,armour:-1,curCrystal:7,maxCrystal:0,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:0/hp:1/x:646/y:281/isMock:0/isReady:0]
+>calculating strategy....
+>$myHp:29
+>$otherHp:28
+>$myMostHit:0
+>$otherMostHit:0
+>$myAllHit:2
+>$otherAllHit:0
+>My Strategy:SG_ATTACK_HERO
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:2/hp:1/x:646/y:401/isMock:0/isReady:0]
+>$otherS:[hp:28,armour:-1,curCrystal:7,maxCrystal:0,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:0/hp:1/x:646/y:281/isMock:0/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:2/hp:1/x:646/y:401/isMock:0/isReady:0]
+>$otherS:[hp:28,armour:-1,curCrystal:7,maxCrystal:0,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:0/hp:1/x:646/y:281/isMock:0/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:2/hp:1/x:646/y:401/isMock:0/isReady:0]
+>$otherS:[hp:28,armour:-1,curCrystal:7,maxCrystal:0,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:0/hp:1/x:646/y:281/isMock:0/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:2/hp:1/x:646/y:401/isMock:0/isReady:0]
+>$otherS:[hp:28,armour:-1,curCrystal:7,maxCrystal:0,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:0/hp:1/x:646/y:281/isMock:0/isReady:0]
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>mys[hp:29,armour:-1,curCrystal:4,maxCrystal:4,numHandCards:0,handCards:,numDeckCards:1,deckCards:cost:0/hit:2/hp:1/x:648/y:401/isMock:0/isReady:1]
+>$otherS:[hp:28,armour:-1,curCrystal:8,maxCrystal:4,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:4/x:602/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0]
+>You have cards:9
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:3/x:602/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:692/y:401/isMock:0/isReady:1]
+>$otherS:[hp:28,armour:-1,curCrystal:8,maxCrystal:4,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:4/x:602/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:3/x:602/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:692/y:401/isMock:0/isReady:1]
+>$otherS:[hp:28,armour:-1,curCrystal:8,maxCrystal:4,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:4/x:602/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:3/x:602/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:692/y:401/isMock:0/isReady:1]
+>$otherS:[hp:28,armour:-1,curCrystal:8,maxCrystal:4,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:4/x:601/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:3/x:602/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:692/y:401/isMock:0/isReady:1]
+>$otherS:[hp:28,armour:-1,curCrystal:8,maxCrystal:4,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:4/x:601/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:3/x:602/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:692/y:401/isMock:0/isReady:1]
+>$otherS:[hp:28,armour:-1,curCrystal:8,maxCrystal:4,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:4/hp:4/x:601/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:3/x:602/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:693/y:401/isMock:0/isReady:1]
+>$otherS:[hp:28,armour:-1,curCrystal:8,maxCrystal:4,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:4/hp:4/x:601/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0]
+>calculating strategy....
+>$myHp:29
+>$otherHp:28
+>$myMostHit:2
+>$otherMostHit:0
+>$myAllHit:3
+>$otherAllHit:4
+>My Strategy:SG_ATTACK_HERO
+>mys[hp:29,armour:-1,curCrystal:0,maxCrystal:4,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:3/x:602/y:401/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:690/y:401/isMock:1/isReady:0]
+>$otherS:[hp:26,armour:-1,curCrystal:8,maxCrystal:4,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:4/x:603/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:0,maxCrystal:4,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:3/x:602/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:691/y:401/isMock:0/isReady:0]
+>$otherS:[hp:26,armour:-1,curCrystal:8,maxCrystal:4,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:4/x:603/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:0,maxCrystal:4,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:3/x:602/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:691/y:401/isMock:0/isReady:0]
+>$otherS:[hp:26,armour:-1,curCrystal:8,maxCrystal:4,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:4/x:603/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0]
+>mys[hp:29,armour:-1,curCrystal:0,maxCrystal:4,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:3/x:602/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:691/y:401/isMock:0/isReady:0]
+>$otherS:[hp:26,armour:-1,curCrystal:8,maxCrystal:4,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:4/hp:4/x:603/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0]
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>mys[hp:27,armour:-1,curCrystal:5,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:3/x:604/y:401/isMock:0/isReady:1|cost:0/hit:2/hp:1/x:692/y:401/isMock:0/isReady:1]
+>$otherS:[hp:26,armour:-1,curCrystal:8,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:2/hp:4/x:557/y:281/isMock:0/isReady:0|cost:0/hit:7/hp:1/x:643/y:281/isMock:1/isReady:0|cost:0/hit:0/hp:1/x:734/y:281/isMock:0/isReady:0]
+>You have cards:9
+>mys[hp:27,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:4/hp:3/x:560/y:401/isMock:0/isReady:1|cost:0/hit:3/hp:5/x:646/y:401/isMock:1/isReady:0|cost:0/hit:2/hp:1/x:735/y:401/isMock:0/isReady:1]
+>$otherS:[hp:26,armour:-1,curCrystal:8,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:2/hp:4/x:557/y:281/isMock:0/isReady:0|cost:0/hit:7/hp:1/x:643/y:281/isMock:1/isReady:0|cost:0/hit:0/hp:1/x:734/y:281/isMock:0/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:1,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:4/hp:1/x:559/y:401/isMock:0/isReady:0|cost:0/hit:3/hp:5/x:646/y:401/isMock:1/isReady:0|cost:0/hit:2/hp:1/x:735/y:401/isMock:0/isReady:1]
+>$otherS:[hp:26,armour:-1,curCrystal:8,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:2/hp:4/x:557/y:281/isMock:0/isReady:0|cost:0/hit:7/hp:-1/x:643/y:281/isMock:1/isReady:0|cost:0/hit:0/hp:1/x:728/y:281/isMock:0/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:1,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:3/hp:-1/x:603/y:401/isMock:1/isReady:0|cost:0/hit:2/hp:1/x:692/y:401/isMock:0/isReady:0]
+>$otherS:[hp:19,armour:-1,curCrystal:8,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:1/hp:4/x:601/y:281/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:692/y:281/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:784/y:281/isMock:1/isReady:0|cost:0/hit:1/hp:-1/x:888/y:281/isMock:1/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:1,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:3/hp:5/x:596/y:401/isMock:1/isReady:0|cost:0/hit:2/hp:1/x:693/y:401/isMock:0/isReady:1]
+>$otherS:[hp:19,armour:-1,curCrystal:8,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:1/hp:4/x:601/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:-1/x:690/y:281/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:776/y:281/isMock:1/isReady:0|cost:0/hit:-1/hp:-1/x:862/y:281/isMock:0/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:1,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:3/hp:5/x:596/y:401/isMock:1/isReady:0|cost:0/hit:2/hp:1/x:692/y:401/isMock:0/isReady:1]
+>$otherS:[hp:26,armour:-1,curCrystal:8,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:1/hp:4/x:601/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:809/y:281/isMock:0/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:1,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:3/hp:5/x:596/y:401/isMock:1/isReady:0|cost:0/hit:2/hp:1/x:692/y:401/isMock:0/isReady:1]
+>$otherS:[hp:26,armour:-1,curCrystal:8,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:1/hp:4/x:601/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:809/y:281/isMock:0/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:1,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:3/hp:5/x:596/y:401/isMock:1/isReady:0|cost:0/hit:2/hp:1/x:692/y:401/isMock:0/isReady:1]
+>$otherS:[hp:26,armour:-1,curCrystal:8,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:1/hp:4/x:601/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:809/y:281/isMock:0/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:1,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:3/hp:5/x:596/y:401/isMock:1/isReady:0|cost:0/hit:2/hp:1/x:693/y:401/isMock:0/isReady:1]
+>$otherS:[hp:26,armour:-1,curCrystal:8,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:1/hp:4/x:603/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:809/y:281/isMock:0/isReady:0]
+>calculating strategy....
+>$myHp:27
+>$otherHp:26
+>$myMostHit:2
+>$otherMostHit:0
+>$myAllHit:5
+>$otherAllHit:2
+>My Strategy:SG_ATTACK_HERO
+>mys[hp:27,armour:-1,curCrystal:1,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:3/hp:5/x:596/y:401/isMock:1/isReady:0|cost:0/hit:-1/hp:-1/x:691/y:401/isMock:0/isReady:0]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:4/x:601/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:1,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:3/hp:5/x:596/y:401/isMock:1/isReady:0|cost:0/hit:2/hp:1/x:691/y:401/isMock:0/isReady:0]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:4/x:601/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:1,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:3/hp:5/x:596/y:401/isMock:1/isReady:0|cost:0/hit:2/hp:1/x:691/y:401/isMock:0/isReady:0]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:4/x:601/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:1,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:3/hp:5/x:596/y:401/isMock:1/isReady:0|cost:0/hit:2/hp:1/x:691/y:401/isMock:0/isReady:0]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:5,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:1/hp:4/x:602/y:281/isMock:0/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0]
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>mys[hp:27,armour:-1,curCrystal:6,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:2,deckCards:cost:0/hit:3/hp:3/x:602/y:401/isMock:1/isReady:1|cost:0/hit:2/hp:1/x:693/y:401/isMock:0/isReady:1]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:2/hp:1/x:513/y:281/isMock:0/isReady:0|cost:0/hit:5/hp:5/x:599/y:281/isMock:1/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0|cost:0/hit:3/hp:1/x:778/y:281/isMock:0/isReady:0]
+>You have cards:9
+>mys[hp:27,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:3/hp:3/x:556/y:401/isMock:1/isReady:1|cost:0/hit:-1/hp:-1/x:648/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:735/y:401/isMock:0/isReady:1]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:2/hp:1/x:514/y:281/isMock:0/isReady:0|cost:0/hit:5/hp:6/x:599/y:281/isMock:1/isReady:0|cost:0/hit:0/hp:1/x:690/y:281/isMock:0/isReady:0|cost:0/hit:3/hp:1/x:778/y:281/isMock:0/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:0,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:-1/hp:-1/x:563/y:401/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:648/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:735/y:401/isMock:0/isReady:1]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:2/hp:1/x:514/y:281/isMock:0/isReady:0|cost:0/hit:-1/hp:5/x:599/y:281/isMock:1/isReady:0|cost:0/hit:0/hp:1/x:689/y:281/isMock:0/isReady:0|cost:0/hit:3/hp:1/x:778/y:281/isMock:0/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:0,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:-1/hp:-1/x:618/y:401/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:714/y:401/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:799/y:401/isMock:0/isReady:0]
+>$otherS:[hp:-1,armour:-1,curCrystal:8,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:2/hp:-1/x:514/y:281/isMock:0/isReady:0|cost:0/hit:5/hp:2/x:599/y:281/isMock:1/isReady:0|cost:0/hit:-1/hp:-1/x:689/y:281/isMock:1/isReady:0|cost:0/hit:-1/hp:1/x:783/y:281/isMock:1/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:0,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:-1/hp:-1/x:604/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:-1/x:692/y:401/isMock:1/isReady:0|cost:0/hit:-1/hp:-1/x:777/y:401/isMock:0/isReady:0]
+>$otherS:[hp:-1,armour:-1,curCrystal:8,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:2/hp:1/x:514/y:281/isMock:0/isReady:0|cost:0/hit:5/hp:2/x:599/y:281/isMock:1/isReady:0|cost:0/hit:1/hp:-1/x:689/y:281/isMock:1/isReady:0|cost:0/hit:-1/hp:-1/x:777/y:281/isMock:1/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:0,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:-1/hp:-1/x:604/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:-1/x:692/y:401/isMock:1/isReady:0|cost:0/hit:-1/hp:-1/x:777/y:401/isMock:0/isReady:0]
+>$otherS:[hp:-1,armour:-1,curCrystal:8,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:2/hp:1/x:514/y:281/isMock:0/isReady:0|cost:0/hit:5/hp:2/x:599/y:281/isMock:1/isReady:0|cost:0/hit:1/hp:-1/x:689/y:281/isMock:1/isReady:0|cost:0/hit:-1/hp:1/x:788/y:281/isMock:0/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:0,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:-1/hp:-1/x:604/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:-1/x:693/y:401/isMock:1/isReady:0|cost:0/hit:-1/hp:1/x:778/y:401/isMock:0/isReady:0]
+>$otherS:[hp:-1,armour:-1,curCrystal:8,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:2/hp:1/x:514/y:281/isMock:0/isReady:0|cost:0/hit:5/hp:2/x:599/y:281/isMock:1/isReady:0|cost:0/hit:1/hp:-1/x:689/y:281/isMock:1/isReady:0|cost:0/hit:-1/hp:1/x:787/y:281/isMock:0/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:0,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:-1/hp:-1/x:604/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:-1/x:692/y:401/isMock:1/isReady:0|cost:0/hit:-1/hp:1/x:777/y:401/isMock:0/isReady:0]
+>$otherS:[hp:-1,armour:-1,curCrystal:8,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:2/hp:1/x:514/y:281/isMock:0/isReady:0|cost:0/hit:5/hp:2/x:599/y:281/isMock:1/isReady:0|cost:0/hit:1/hp:-1/x:689/y:281/isMock:1/isReady:0|cost:0/hit:-1/hp:1/x:787/y:281/isMock:0/isReady:0]
+>calculating strategy....
+>$myHp:27
+>$otherHp:1
+>$myMostHit:0
+>$otherMostHit:0
+>$myAllHit:4
+>$otherAllHit:9
+>My Strategy:SG_ATTACK_HERO
+>mys[hp:27,armour:-1,curCrystal:0,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:-1/hp:-1/x:604/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:-1/x:693/y:401/isMock:1/isReady:0|cost:0/hit:-1/hp:1/x:778/y:401/isMock:0/isReady:0]
+>$otherS:[hp:-1,armour:-1,curCrystal:8,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:2/hp:1/x:514/y:281/isMock:0/isReady:0|cost:0/hit:5/hp:2/x:599/y:281/isMock:1/isReady:0|cost:0/hit:1/hp:-1/x:689/y:281/isMock:1/isReady:0|cost:0/hit:-1/hp:1/x:787/y:281/isMock:0/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:0,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:-1/hp:-1/x:604/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:-1/x:692/y:401/isMock:1/isReady:0|cost:0/hit:-1/hp:1/x:777/y:401/isMock:0/isReady:0]
+>$otherS:[hp:-1,armour:-1,curCrystal:8,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:2/hp:1/x:514/y:281/isMock:0/isReady:0|cost:0/hit:5/hp:2/x:599/y:281/isMock:1/isReady:0|cost:0/hit:1/hp:-1/x:689/y:281/isMock:1/isReady:0|cost:0/hit:-1/hp:1/x:787/y:281/isMock:0/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:0,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:-1/hp:-1/x:604/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:-1/x:692/y:401/isMock:1/isReady:0|cost:0/hit:-1/hp:1/x:777/y:401/isMock:0/isReady:0]
+>$otherS:[hp:-1,armour:-1,curCrystal:8,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:2/hp:1/x:514/y:281/isMock:0/isReady:0|cost:0/hit:5/hp:2/x:599/y:281/isMock:1/isReady:0|cost:0/hit:1/hp:-1/x:689/y:281/isMock:1/isReady:0|cost:0/hit:-1/hp:1/x:787/y:281/isMock:0/isReady:0]
+>mys[hp:27,armour:-1,curCrystal:0,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:-1/hp:-1/x:604/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:-1/x:692/y:401/isMock:1/isReady:0|cost:0/hit:-1/hp:1/x:777/y:401/isMock:0/isReady:0]
+>$otherS:[hp:-1,armour:-1,curCrystal:8,maxCrystal:6,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:2/hp:1/x:514/y:281/isMock:0/isReady:0|cost:0/hit:5/hp:2/x:599/y:281/isMock:1/isReady:0|cost:0/hit:1/hp:-1/x:689/y:281/isMock:1/isReady:0|cost:0/hit:-1/hp:1/x:787/y:281/isMock:0/isReady:0]
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>mys[hp:15,armour:-1,curCrystal:7,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:-1/hp:-1/x:604/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:692/y:401/isMock:0/isReady:1|cost:0/hit:-1/hp:-1/x:917/y:401/isMock:1/isReady:0]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:6,deckCards:cost:0/hit:5/hp:2/x:470/y:281/isMock:0/isReady:0|cost:0/hit:4/hp:3/x:555/y:281/isMock:1/isReady:0|cost:0/hit:8/hp:6/x:646/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:2/x:734/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:-1/x:822/y:281/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:915/y:281/isMock:0/isReady:0]
+>You have cards:11
+>mys[hp:15,armour:-1,curCrystal:-1,maxCrystal:-1,numHandCards:0,handCards:,numDeckCards:6,deckCards:cost:0/hit:-1/hp:2/x:471/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:558/y:401/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:649/y:401/isMock:0/isReady:1|cost:0/hit:2/hp:4/x:735/y:401/isMock:0/isReady:0|cost:0/hit:1/hp:-1/x:824/y:401/isMock:0/isReady:1|cost:0/hit:-1/hp:-1/x:930/y:401/isMock:0/isReady:0]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:6,deckCards:cost:0/hit:5/hp:2/x:470/y:281/isMock:0/isReady:0|cost:0/hit:4/hp:3/x:555/y:281/isMock:1/isReady:0|cost:0/hit:8/hp:6/x:646/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:2/x:734/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:822/y:281/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:910/y:281/isMock:1/isReady:0]
+>mys[hp:15,armour:-1,curCrystal:0,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:5,deckCards:cost:0/hit:-1/hp:2/x:471/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:558/y:401/isMock:0/isReady:0|cost:0/hit:1/hp:3/x:646/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:4/x:735/y:401/isMock:0/isReady:0|cost:0/hit:1/hp:1/x:824/y:401/isMock:0/isReady:1]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:5,deckCards:cost:0/hit:5/hp:2/x:470/y:281/isMock:0/isReady:0|cost:0/hit:4/hp:2/x:555/y:281/isMock:1/isReady:0|cost:0/hit:8/hp:6/x:645/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:2/x:734/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:2/x:822/y:281/isMock:0/isReady:0]
+>mys[hp:15,armour:-1,curCrystal:0,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:-1/hp:-1/x:516/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:602/y:401/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:687/y:401/isMock:0/isReady:0|cost:0/hit:-1/hp:1/x:772/y:401/isMock:0/isReady:1]
+>$otherS:[hp:1,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:5,deckCards:cost:0/hit:5/hp:2/x:470/y:281/isMock:0/isReady:0|cost:0/hit:4/hp:2/x:555/y:281/isMock:1/isReady:0|cost:0/hit:-1/hp:-1/x:645/y:281/isMock:1/isReady:0|cost:0/hit:-1/hp:-1/x:735/y:281/isMock:1/isReady:0|cost:0/hit:1/hp:2/x:822/y:281/isMock:1/isReady:0]
+>mys[hp:15,armour:-1,curCrystal:0,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:-1/hp:-1/x:515/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:602/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:4/x:691/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:5/x:776/y:401/isMock:0/isReady:0]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:5,deckCards:cost:0/hit:5/hp:2/x:470/y:281/isMock:0/isReady:0|cost:0/hit:4/hp:0/x:555/y:281/isMock:1/isReady:0|cost:0/hit:8/hp:6/x:645/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:2/x:734/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:2/x:822/y:281/isMock:0/isReady:0]
+>mys[hp:15,armour:-1,curCrystal:0,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:-1/hp:-1/x:555/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:642/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:2/x:730/y:401/isMock:0/isReady:0|cost:0/hit:5/hp:-1/x:837/y:401/isMock:0/isReady:0]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:3/hp:4/x:509/y:281/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:626/y:281/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:760/y:281/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:851/y:281/isMock:0/isReady:0]
+>mys[hp:15,armour:-1,curCrystal:0,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:-1/hp:-1/x:559/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:646/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:735/y:401/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:822/y:401/isMock:0/isReady:0]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:3/hp:2/x:513/y:281/isMock:0/isReady:0|cost:0/hit:8/hp:6/x:598/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:2/x:690/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:2/x:778/y:281/isMock:0/isReady:0]
+>mys[hp:15,armour:-1,curCrystal:0,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:-1/hp:-1/x:560/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:646/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:4/x:735/y:401/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:820/y:401/isMock:1/isReady:0]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:3/hp:2/x:514/y:281/isMock:0/isReady:0|cost:0/hit:8/hp:6/x:601/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:2/x:690/y:281/isMock:0/isReady:0|cost:0/hit:4/hp:2/x:778/y:281/isMock:0/isReady:0]
+>mys[hp:15,armour:-1,curCrystal:0,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:-1/hp:-1/x:560/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:646/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:4/x:734/y:401/isMock:0/isReady:0]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:3/hp:2/x:514/y:281/isMock:0/isReady:0|cost:0/hit:-1/hp:-1/x:612/y:281/isMock:1/isReady:0|cost:0/hit:1/hp:2/x:697/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:-1/x:788/y:281/isMock:0/isReady:0]
+>calculating strategy....
+>$myHp:15
+>$otherHp:24
+>$myMostHit:0
+>$otherMostHit:0
+>$myAllHit:5
+>$otherAllHit:6
+>My Strategy:SG_ATTACK_HERO
+>mys[hp:15,armour:-1,curCrystal:0,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:-1/hp:-1/x:560/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:646/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:4/x:735/y:401/isMock:0/isReady:0]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:3/hp:2/x:514/y:281/isMock:0/isReady:0|cost:0/hit:8/hp:6/x:601/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:2/x:690/y:281/isMock:0/isReady:0|cost:0/hit:4/hp:2/x:778/y:281/isMock:0/isReady:0]
+>mys[hp:15,armour:-1,curCrystal:0,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:-1/hp:-1/x:560/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:646/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:4/x:735/y:401/isMock:0/isReady:0]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:3/hp:2/x:514/y:281/isMock:0/isReady:0|cost:0/hit:8/hp:6/x:602/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:2/x:690/y:281/isMock:0/isReady:0|cost:0/hit:4/hp:2/x:778/y:281/isMock:0/isReady:0]
+>mys[hp:15,armour:-1,curCrystal:0,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:-1/hp:-1/x:560/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:646/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:4/x:735/y:401/isMock:0/isReady:0]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:3/hp:2/x:514/y:281/isMock:0/isReady:0|cost:0/hit:8/hp:6/x:602/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:2/x:690/y:281/isMock:0/isReady:0|cost:0/hit:4/hp:2/x:778/y:281/isMock:0/isReady:0]
+>mys[hp:15,armour:-1,curCrystal:0,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:3,deckCards:cost:0/hit:-1/hp:-1/x:560/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:1/x:646/y:401/isMock:0/isReady:0|cost:0/hit:2/hp:4/x:735/y:401/isMock:0/isReady:0]
+>$otherS:[hp:24,armour:-1,curCrystal:8,maxCrystal:7,numHandCards:0,handCards:,numDeckCards:4,deckCards:cost:0/hit:3/hp:2/x:514/y:281/isMock:0/isReady:0|cost:0/hit:8/hp:6/x:602/y:281/isMock:0/isReady:0|cost:0/hit:1/hp:2/x:690/y:281/isMock:0/isReady:0|cost:0/hit:4/hp:2/x:778/y:281/isMock:0/isReady:0]
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...
+>playingCard
+>This use AI to play card!!!
+>waiting for other play...

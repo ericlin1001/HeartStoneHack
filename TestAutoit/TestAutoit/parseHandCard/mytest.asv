@@ -1,0 +1,28 @@
+function d=mytest()
+    files=dir('*.bmp');
+    len=length(files);
+    d=zeros(len,len);
+    fs={};
+    for i=1:len
+        f1=files(i).name;  
+         original=imread(f1);
+         original=rgb2gray(original);
+         ptsOriginal  = detectSURFFeatures(original);
+         [featuresOriginal,  validPtsOriginal]  = extractFeatures(original,  ptsOriginal);
+        fs{i}=featuresOriginal;
+    end
+
+    for i=1:len
+        f1=files(i).name;   
+        for j=1:len
+             f2=files(j).name;   
+            d(i,j)=length(matchFeatures( fs{i}, fs{j}));
+            disp(['*' num2str(i) ',' num2str(j) '=' num2str(d(i,j))]);
+        end
+    end
+    selfMin=min(diag(d));
+    
+    selfMin
+end
+            
+             

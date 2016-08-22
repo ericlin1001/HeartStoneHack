@@ -1,0 +1,1 @@
+copy ..\TestAutoit\Release\ParseCardsDll.dll .\

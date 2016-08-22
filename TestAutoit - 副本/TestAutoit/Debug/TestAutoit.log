@@ -1,0 +1,30 @@
+﻿Build started 2014/5/1 20:59:55.
+     1>Project "J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\TestAutoit\TestAutoit.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TestAutoit.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt TestAutoit.cpp
+         TestAutoit.cpp
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(346): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(368): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(406): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(473): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(952): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1036): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1068): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1138): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1153): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1158): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1174): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1188): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1230): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1407): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\users\eric\documents\mydocument\大三下\heartstonehack\testautoit\testautoit\testautoit.cpp(1435): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Debug\TestAutoit.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Debug\TestAutoit.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Debug\TestAutoit.lib" /MACHINE:X86 Debug\nouse.obj
+         Debug\stdafx.obj
+         Debug\TestAutoit.obj
+         TestAutoit.vcxproj -> J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Debug\TestAutoit.exe
+     1>Done Building Project "J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\TestAutoit\TestAutoit.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:27.12

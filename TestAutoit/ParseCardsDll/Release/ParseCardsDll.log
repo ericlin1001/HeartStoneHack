@@ -1,0 +1,24 @@
+﻿Build started 2014/5/12 11:32:03.
+     1>Project "J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\ParseCardsDll\ParseCardsDll.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PARSECARDSDLL_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\ParseCardsDll.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ParseCardsDll.cpp
+         ParseCardsDll.cpp
+     1>ParseCardsDll.cpp(71): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         J:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Release\ParseCardsDll.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Release\ParseCardsDll.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Release\ParseCardsDll.lib" /MACHINE:X86 /SAFESEH /DLL Release\TestAutoit.obj
+         Release\dllmain.obj
+         Release\ParseCardsDll.obj
+         Release\stdafx.obj
+            Creating library J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Release\ParseCardsDll.lib and object J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Release\ParseCardsDll.exp
+         Generating code
+         Finished generating code
+         ParseCardsDll.vcxproj -> J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\Release\ParseCardsDll.dll
+       PostBuildEvent:
+         copy ..\Release\ParseCardsDll.dll ..\..\heartStoneAutoPlaySrc\
+         :VCEnd
+         已复制         1 个文件。
+     1>Done Building Project "J:\Users\Eric\Documents\myDocument\大三下\HeartStoneHack\TestAutoit\ParseCardsDll\ParseCardsDll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.05
